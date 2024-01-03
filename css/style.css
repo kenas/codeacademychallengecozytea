@@ -66,7 +66,7 @@ header .hero-text {
 
 }
 
-h2 {
+header .hero-text h2 {
     padding-top: 0.2rem;
     padding-bottom: 2rem;
     font-size: 2.2rem;
@@ -85,7 +85,96 @@ h1,
 h2,
 h3,
 h5,
-p,
-span {
+p {
     opacity: 0.9;
+}
+
+
+/* Selections section */
+
+
+.selections{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+div.selections-header, h2 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center  ;
+}
+
+div.selections-header, h4 {
+    padding-bottom: 1rem;
+    font-weight: 800;
+}
+
+.tea-month-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.tea-month-wrap img{
+    width: 300px;
+}
+
+.tea-month-wrap small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+/* Location section  */
+
+section.locations {
+    background-image: url('../img/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
+    min-height: 500px;
+    margin-top: 4rem;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.locations .header {
+    font-size: 2.2rem;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+section.locations .header h3 {
+  padding: 30px 0px 15px 0px;
+} 
+
+.boxis {
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.box {
+    background-color: black;
+    text-align: center;
+    width: 260px;
+    padding: 20px;
+}
+
+.box address {
+    font-style: normal;
+}
+
+.box address p {
+    padding: 17px;
 }
