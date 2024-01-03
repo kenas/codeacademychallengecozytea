@@ -191,9 +191,3 @@ footer {
 p.copy {
     margin-left: 20px;
 }
-
-@media screen and (max-width: 768px) {
-    .box {
-        flex-shrink: 2;
-    }
-}
